@@ -1,0 +1,68 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@font-face {
+    font-family: 'Gilroy Light';
+    src: url('Gilroy-Light.woff2') format('woff2'),
+    url('../fonts/Gilroy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    line-height: 22px;
+}
+
+
+/* Variables */
+:root {
+    --basic-black:#000000;
+    --basic-gray:#363636;
+    --basic-yellow:#F7E296;
+    --basic-yellow-dark:#F0C52E;
+    --basic-gray-dark:#E5E5E5;
+    --basic-white:#ffffff;
+
+}
+
+/* Global */
+
+body {
+    min-width: 1160px;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #000000;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Main navigation */
+.main-navigation {
+
+}
+
+
+
+
+
+/* text-transform: uppercase; */
